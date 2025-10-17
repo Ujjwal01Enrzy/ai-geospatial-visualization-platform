@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+**/node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.bundle.js
+*.bundle.js.map
+
+# Uploads and temporary files
+uploads/
+tmp/
+temp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Docker volumes
+postgres-data/
+
+# ML models (large files)
+*.pth
+*.pt
+*.h5
+*.pkl
+*.joblib
+weights/
+checkpoints/
+
+# Misc
+.cache/
+.parcel-cache/
